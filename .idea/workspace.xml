@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c2bcc00-0cf4-4330-8415-6d22991b0b14" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/One/com/mack/one/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/One/com/mack/one/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mack/one/Main.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mack/one/Main.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mack/one/operators.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/One/com/mack/one/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/One/com/mack/one/Main.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,14 +16,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mack/one/Main.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+            <state relative-caret-position="448">
+              <caret line="69" column="43" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
               <folding>
                 <element signature="e#22#61#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="operators.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mack/one/operators.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -38,6 +47,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/mack/one/Person.groovy" />
         <option value="$PROJECT_DIR$/src/com/mack/one/Main.groovy" />
+        <option value="$PROJECT_DIR$/src/com/mack/one/operators.groovy" />
       </list>
     </option>
   </component>
@@ -45,7 +55,9 @@
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -90,13 +102,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Groovy.operators">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="Person" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="One" />
       <setting name="path" value="file://$PROJECT_DIR$/src/com/mack/one/Main.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/com/mack/one" />
+      <setting name="debug" value="false" />
+    </configuration>
+    <configuration name="operators" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="One" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/com/mack/one/operators.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workDir" value="file://$PROJECT_DIR$/src/com/mack/one" />
@@ -140,8 +160,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Groovy.Person" />
+      <item itemvalue="Groovy.operators" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Groovy.operators" />
         <item itemvalue="Groovy.Person" />
       </list>
     </recent_temporary>
@@ -198,11 +223,18 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/mack/one/Main.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="448">
+          <caret line="69" column="43" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
           <folding>
             <element signature="e#22#61#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mack/one/operators.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
         </state>
       </provider>
     </entry>
