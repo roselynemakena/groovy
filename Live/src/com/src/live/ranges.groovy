@@ -49,5 +49,5 @@ def map = [:]
 map = [fname: "Rose", lname: "Maken"]
 println(map)
 
-map.each {}
+//map.eachp9i]\;/;o
 
