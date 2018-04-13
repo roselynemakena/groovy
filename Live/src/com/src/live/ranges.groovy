@@ -14,6 +14,20 @@ dateInFuture = date+10
 
 Range rr = (date..dateInFuture)
 println(rr)
+enum say {
+    SUN,MON,TUE,WED,THU,FRI,SAT
+}
+
+def daily = say.SUN..say.SAT
+for(x in daily){
+    println(x)
+}
+
+//List of days
+
+List dayList = ['Monday','Tues','Wed','Thurs']
+//println(days)
+println("The size is: "+daily.size)
 
 //Initiating a list
 List x = ['a','b','c','d','e','f']
