@@ -1,0 +1,19 @@
+class Hello {
+String first
+String last 
+String gender
+    def hello(name) {
+        println("Wasup, $name")
+    }
+    
+    def hello(first, last, gender) {
+    println("$first $last. Who is a $gender")
+    }
+}
+
+h = new Hello()
+h.hello("MAKEANA")
+
+h.hello("Rose", "Makena","girl")
+
+2+2

@@ -6,7 +6,6 @@ import groovy.transform.ToString
 class Account{
 
     BigDecimal balance
-
     Account plus(Account two){
         new Account(balance: this.balance + two.balance)
     }
@@ -16,9 +15,7 @@ class Account{
     }
 
     void withdraw(){
-
     }
-
 }
 
 Account acc1 = new Account()
