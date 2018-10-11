@@ -25,3 +25,12 @@ print result
 //safe operator
 j2 = new Joys()
 println j2.firstName
+
+100.downto(20) { num ->
+    println(num)
+}
+
+println("-------->>>>>")
+1.step(90, 3) {
+    println(it)
+}
