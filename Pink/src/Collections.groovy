@@ -52,3 +52,77 @@ for(x in list) {
 }
 
 println(list.unique())
+
+//maps - key value pairs
+def map = [:]
+println(map.getClass().getName())
+
+def makena = [first: "makena", last: "Rpse"]
+println(makena)
+
+makena.gender = "female"
+makena.'Email adress' = "rose@gmail.com"
+def location = "Place of residence"
+makena.(location)  = "Meru"
+
+for(x in makena.keySet()) {
+    println("${x}")
+}
+
+println(makena)
+
+//enum
+enum daysOftheWeek {
+    MONDAY,
+    TUES,
+    WED,
+    THUR,
+    FRI,
+    SAT,
+    SUN
+}
+println("-------->")
+
+Range weekdays = daysOftheWeek.MONDAY..daysOftheWeek.SUN
+println("Weekdays Size: ${weekdays.size()}")
+assert weekdays.contains(daysOftheWeek.WED)
+
+println(daysOftheWeek.MONDAY..daysOftheWeek.SUN)
+for(d in daysOftheWeek) {
+    println(d)
+}
+
+List listDays = [ "MONDAY",
+     "TUES",
+     "WED",
+     "THUR",
+     "FRI",
+     "SAT",
+     "SUN"]
+
+println(listDays)
+println(listDays.size())
+listDays.remove("SAT")
+println(listDays)
+listDays << "SAT"
+
+println(listDays)
+
+println(listDays[2])
+
+
+Map mapDays = [ 1: "MONDAY",
+                2: "TUES",
+                3: "WED",
+                4: "THUR",
+                5: "FRI",
+                6: "SAT",
+                7: "SUN"]
+
+println(mapDays)
+println(mapDays.size())
+println(mapDays.getClass().getName())
+
+mapDays.each {
+    println(it.value)
+}
